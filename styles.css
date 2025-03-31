@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.contenedor-centrado {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.opciones-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Esto hará que las columnas tengan el mismo ancho */
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-opcion {
+    width: 100%;
+}
+
+#textbox-container {
+    margin-top: 20px;
+}
+
+#siguiente-pregunta-btn {
+    /* El centrado horizontal se maneja con align-self */
+}
