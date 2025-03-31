@@ -19,9 +19,15 @@ body {
     margin-bottom: 20px;
 }
 
-h2 {
-    margin-bottom: 20px;
-    color: #333;
+h2.pregunta { /* Es más específico usar h2.pregunta */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 15px; /* Agrega un padding de 15 píxeles en todos los lados */
+    /* Puedes usar valores diferentes para cada lado si lo deseas, por ejemplo:
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    */
 }
 
 .opciones-container {
