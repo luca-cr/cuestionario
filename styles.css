@@ -43,6 +43,7 @@ h2.pregunta { /* Es más específico usar h2.pregunta */
 
 #textbox-container {
     margin-top: 20px;
+    font-size: 24px;
 }
 
 #siguiente-pregunta-btn {
